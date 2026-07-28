@@ -201,3 +201,4 @@ The Zen of Python, by Tim Peters
 199.Although practicality beats purity.
 200.Errors should never pass silently.
 201.New line from Dmitriy Timchuk
+202.New line from Oleksii Antypov
