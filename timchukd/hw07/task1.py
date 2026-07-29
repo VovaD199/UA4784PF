@@ -2,7 +2,7 @@
 Task1. Write a function that returns the largest number of two numbers
 (use DocStrings documentation strings in the function).
 """
-def maxNumber(a, b):
+def max_number(a, b):
     if a > b:
         return a
     else:
@@ -25,7 +25,7 @@ def area_triangle(base, height):
 def area_circle(radius):
     """Calculate the area of a circle."""
     import math
-    
+
     return math.pi * radius ** 2
 
 """
