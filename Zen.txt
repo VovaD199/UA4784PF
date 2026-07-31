@@ -200,4 +200,4 @@ The Zen of Python, by Tim Peters
 198.Special cases aren't special enough to break the rules.
 199.Although practicality beats purity.
 200.Errors should never pass silently.
-201. Beautiful is better than ugly. by omecunskyvitalik-debug
+201. Good morning by terukimolt
