@@ -201,6 +201,7 @@ The Zen of Python, by Petriv Stanislav(wozeuleaplug)
 199.Although practicality beats purity.
 200.Errors should never pass silently.
 201.New line from Dmitriy Timchuk
+202.This is the new line edited by Dmytro Bondariev. Python is awesome!
 202. 42 (this line's author is Yaroslav Saveliuk)
 201.Added new line by Stanislav Petriv
 202.Added new line by Dmytro Uchkin
