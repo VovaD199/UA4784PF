@@ -206,4 +206,5 @@ The Zen of Python, by Petriv Stanislav(wozeuleaplug)
 201.Added new line by Stanislav Petriv
 202.Added new line by Dmytro Uchkin
 203.Vorozhko Vitalii was here
+204.Changed by Yaroslav Hrechko
 
