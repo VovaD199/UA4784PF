@@ -1,10 +1,10 @@
+from random import randint
+
 from game_logic import (
     MIN_NUMBER,
     MAX_NUMBER,
     MAX_ATTEMPTS,
-    generate_secret_number,
     get_hint,
-    is_correct_guess,
 )
 
 
@@ -25,7 +25,7 @@ def get_user_guess(attempt):
 
 
 def play_game():
-    secret_number = generate_secret_number()
+    secret_number = randint(MIN_NUMBER, MAX_NUMBER)
 
     print(f"Guess the number from {MIN_NUMBER} to {MAX_NUMBER}.")
     print(f"You have {MAX_ATTEMPTS} attempts.")
@@ -33,7 +33,7 @@ def play_game():
     for attempt in range(1, MAX_ATTEMPTS + 1):
         user_number = get_user_guess(attempt)
 
-        if is_correct_guess(secret_number, user_number):
+        if secret_number == user_number:
             print("Congratulations! You guessed the number!")
             print(f"You used {attempt} attempt(s).")
             break
