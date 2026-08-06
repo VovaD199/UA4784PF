@@ -1,13 +1,13 @@
 import re
 
 
-def get_password_errors(password):
+def get_password_errors(password, min_length=6, max_length=16, special_chars="$#@"):
     errors = []
 
     checks = [
         (
-            6 <= len(password) <= 16,
-            "Password must be 6-16 characters long.",
+            min_length <= len(password) <= max_length,
+            f"Password must be {min_length}-{max_length} characters long.",
         ),
         (
             re.search(r"[a-z]", password),
@@ -22,8 +22,8 @@ def get_password_errors(password):
             "Password must include at least one digit.",
         ),
         (
-            re.search(r"[$#@]", password),
-            "Password must include at least one special character ($#@).",
+            re.search(rf"[{re.escape(special_chars)}]", password),
+            f"Password must include at least one special character ({special_chars}).",
         ),
     ]
 
@@ -34,5 +34,5 @@ def get_password_errors(password):
     return errors
 
 
-def is_valid_password(password):
-    return len(get_password_errors(password)) == 0
+def is_valid_password(password, min_length=6, max_length=16, special_chars="$#@"):
+    return len(get_password_errors(password, min_length, max_length, special_chars)) == 0
