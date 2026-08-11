@@ -1,3 +1,6 @@
+The Zen of Python, by Baloban Artem
+
+1.Baloban Artem is better than ugly.
 The Zen of Python, by Petriv Stanislav(wozeuleaplug)
 
 1.Andrew Chernuhas' row modification. Beautiful is better than ugly.
@@ -202,6 +205,7 @@ The Zen of Python, by Petriv Stanislav(wozeuleaplug)
 200.Errors should never pass silently.
 201.New line by michelson_py
 201.New line from Denys Chupryna
+201.Hello everyone by omecunskyvitalik-debug
 201.New line from Dmitriy Timchuk
 202.This is the new line edited by Dmytro Bondariev. Python is awesome!
 202. 42 (this line's author is Yaroslav Saveliuk)
