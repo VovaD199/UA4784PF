@@ -200,6 +200,7 @@ The Zen of Python, by Petriv Stanislav(wozeuleaplug)
 198.Special cases aren't special enough to break the rules.
 199.Although practicality beats purity.
 200.Errors should never pass silently.
+201.New line by michelson_py
 201.New line from Denys Chupryna
 201.New line from Dmitriy Timchuk
 202.This is the new line edited by Dmytro Bondariev. Python is awesome!
