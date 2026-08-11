@@ -206,6 +206,7 @@ The Zen of Python, by Petriv Stanislav(wozeuleaplug)
 201.New line by michelson_py
 201.New line from Denys Chupryna
 201.Hello everyone by omecunskyvitalik-debug
+202.new line by Yehor Basanets
 201.New line from Dmitriy Timchuk
 202.This is the new line edited by Dmytro Bondariev. Python is awesome!
 202. 42 (this line's author is Yaroslav Saveliuk)
