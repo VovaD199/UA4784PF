@@ -19,8 +19,9 @@ class Employee:
 
     @classmethod
     def print_employee_count(cls):
-        print(f"Total employees: {cls.counter}")
+        print(f"Total employees: {cls.employee_counter}")
 
+    @staticmethod
     def display_info(self):
         print(f"Name: {self.name}, Salary: {self.salary}")
 
