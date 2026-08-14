@@ -1,5 +1,8 @@
+The Zen of Python, by Baloban Artem
+
 The Zen of Python, by Petriv Stanislav(wozeuleaplug)
 
+1.Baloban Artem is better than ugly.
 1.Andrew Chernuhas' row modification. Beautiful is better than ugly.
 2.Explicit is better than implicit.
 3.Simple is better than complex.
@@ -200,11 +203,16 @@ The Zen of Python, by Petriv Stanislav(wozeuleaplug)
 198.Special cases aren't special enough to break the rules.
 199.Although practicality beats purity.
 200.Errors should never pass silently.
+201.New line by michelson_py
 201.New line from Denys Chupryna
+201.Hello everyone by omecunskyvitalik-debug
 201.New line from Dmitriy Timchuk
+201.Added new line by Stanislav Petriv
+202.new line by Yehor Basanets
 202.This is the new line edited by Dmytro Bondariev. Python is awesome!
 202. 42 (this line's author is Yaroslav Saveliuk)
-201.Added new line by Stanislav Petriv
 202.Added new line by Dmytro Uchkin
 203.Vorozhko Vitalii was here
+204 hi from asikachovska
+204. Bohelskyi Bohdan added new line
 
