@@ -1,0 +1,11 @@
+"""Task 8.3"""
+import test
+var = input("Enter figure (rectangle, triangle, circle): ")
+if var == "rectangle":
+    print(test.area_restangle(4, 3))
+elif var == "triangle":
+    print(test.area_triangle(12, 3))
+elif var == "circle":
+    print(test.area_circle(5))
+else:
+    print("You enter wrong value: ", {var})
