@@ -4,6 +4,7 @@ os.system("cls")
 
 
 if __name__ == '__main__':
+    attempts = 1
     win = False
     number = randint(1, 100)
 
