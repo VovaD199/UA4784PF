@@ -1,19 +1,23 @@
-class Polygon:
-    def __init__(self, sides):
-        self.sides = sides
+class Polygon:  
+    def __init__(self, sides: int):  
+        self.sides = sides  
 
-    def display_info(self):
-        print(f"This is a polygon with {self.sides} sides")
+    def display_info(self) -> None:  
+        print(f"This is a polygon with {self.sides} sides")  
 
 
-class Rectangle(Polygon):
-    def __init__(self, length, width):
-        super().__init__(4)
-        self.length = length
-        self.width = width
+class Rectangle(Polygon):  
+    def __init__(self, length: float, width: float):  
+        if length <= 0 or width <= 0:  
+            raise ValueError("Length and width must be positive.")  
 
-    def area(self):                  # "square" = area of the rectangle
-        return self.length * self.width
+        super().__init__(4)  
+        self.length = length  
+        self.width = width  
+
+    def area(self) -> float:  
+        """Return the area of the rectangle."""  
+        return self.length * self.width  
 
 
 
