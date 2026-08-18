@@ -1,17 +1,19 @@
-class Human:
-    def __init__(self, name):
-        self.name = name
+class Human:  
+    """Represent a human being."""  
 
-    def welcome(self):
-        print(f"Welcome, {self.name}!")
+    def __init__(self, name: str):  
+        self.name = name  
 
-    @classmethod
-    def species(cls):
-        return "Homosapiens"
+    def welcome(self) -> str:  
+        return f"Welcome, {self.name}!"  
 
-    @staticmethod
-    def arbitrary_message():
-        return "This is a static message"
+    @classmethod  
+    def species(cls) -> str:  
+        return "Homo sapiens"  
+
+    @staticmethod  
+    def arbitrary_message() -> str:  
+        return "This is a static message"  
 
 
 

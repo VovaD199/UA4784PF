@@ -1,17 +1,17 @@
 class Employee:
     """Employee class that stores name and salary of workers."""
-    count = 0                       # class variable - total number of employees
+    count: int = 0                       # class variable - total number of employees
 
-    def __init__(self, name, salary):
+    def __init__(self, name: str, salary):
         self.name = name
         self.salary = salary
         Employee.count += 1
 
     @classmethod
-    def total_employees(cls):
+    def total_employees(cls) -> None:
         print(f"Total number of employees: {cls.count}")
 
-    def display_info(self):
+    def display_info(self) -> None:
         print(f"Name: {self.name}, Salary: {self.salary}")
 
 
