@@ -9,41 +9,28 @@ import calendar
 
 
 class InvalidDayNumberError(Exception):
-    """Exception raised when the entered number is outside the 1 to 7 range."""
-
-    def __init__(self, message="Number must be between 1 and 7."):
-        super().__init__(message)
+    """Raised when the day number is outside the range 1-7."""
 
 
-def process_weekday(day_number):
-    """
-    Processes the week day and returns its name.
-    Generates an exception if the day_number is an impropriate.
-    """
-    if 1 <= day_number <= 7:
-        return calendar.day_name[day_number - 1]
-    else:
-        raise InvalidDayNumberError(
-            "Invalid day number. Please enter a number between 1 and 7."
-        )
+def process_weekday(day_number: int) -> str:
+    """Return the name of the weekday by its number."""
+    if not 1 <= day_number <= 7:
+        raise InvalidDayNumberError("Day number must be between 1 and 7.")
+
+    return calendar.day_name[day_number - 1]
 
 
 def main():
-    """
-    Master code that prompts the number and handles exceptions.
-    """
+    """Get the day number from the user and handle exceptions."""
     try:
-        user_input = input("Please enter a weekday number (1-7): ")
-        day_number = int(user_input)
+        day_number = int(input("Please enter a weekday number (1-7): "))
+        print(f"The day of the week is {process_weekday(day_number)}.")
 
-        result = process_weekday(day_number)
+    except ValueError:
+        print("Invalid input. Please enter a number.")
 
-        print(f"The day of the week is {result}.")
-
-    except ValueError as e:
-        print(f"Invalid input!!! Please enter numerical data only. Error: {e}")
-    except InvalidDayNumberError as e:
-        print(f"Error: {e}")
+    except InvalidDayNumberError as error:
+        print(f"Error: {error}")
 
 
 if __name__ == "__main__":
