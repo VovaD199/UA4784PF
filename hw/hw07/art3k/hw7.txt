@@ -1,0 +1,50 @@
+"""Task 1"""
+def large_num(x, y):
+    """The `large_num` function takes two arguments, then prints them, 
+                 and next compares them using a condition"""
+    print(x, y)
+    if x > y:
+        print("Large: ", x)
+    elif x < y:
+        print("Large: ", y)
+large_num(5, 7)
+
+"""Task 2"""
+""" The area_rectangle function takes two arguments, then calculates and returns the area of a rectangle.
+    The area_triangle function takes two arguments, then calculates and returns the area of a triangle.
+    The area_circle function takes two arguments, then calculates and returns the area of a circle.
+    The program takes a figure name from the user, then calls the corresponding function and prints the result.
+"""
+def area_rectangle(a, b):
+    return a * b
+def area_triangle(a, b):
+    return (a * b) / 2
+def area_circle(r, p):
+    return p * r ** 2
+
+user = input()
+if user == "rectangle":
+    print(area_rectangle(3, 4))
+elif user == "triangle":
+    print(area_triangle(5, 6))
+elif user == "circle":
+    print(area_triangle(5, 3.14))
+else:
+    print("Incorrect your message")
+
+"""Task 3"""
+""" The str_inp function takes a string as an argument, then counts how many times each character appears in the string
+    and returns the result as a dictionary.
+    The program takes a string from the user,
+    then calls the str_inp function and prints the dictionary.
+"""
+def str_inp(var):
+    d = {}
+    for char in var:
+        if char in d:
+            d[char] += 1
+        else:
+            d[char] = 1
+    return d
+
+user = print(str_inp(input()))

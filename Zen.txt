@@ -1,5 +1,4 @@
 The Zen of Python, by Baloban Artem
-
 The Zen of Python, by Petriv Stanislav(wozeuleaplug)
 
 1.Baloban Artem is better than ugly.
