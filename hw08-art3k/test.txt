@@ -1,0 +1,21 @@
+"""Task 8.2"""
+password = input("Enter password: ")
+has_lower = any("a"<= char <= "z" for char in password)
+has_upper = any("A"<= char <= "Z" for char in password)
+has_digit = any("0" <= char <= "9" for char in password)
+has_special = any(char in "$#@" for char in password)
+correct_length = 6 <= len(password) <= 16
+
+if has_lower and has_upper and has_digit and has_special and correct_length:
+    print("Valid password")
+else:
+    print("Invalid password")
+
+"""Task 8.3"""
+from math import pi, pow
+def area_restangle(a, b):
+    return a * b
+def area_triangle(a, b):
+    return 0,5 * a * b
+def area_circle(r):
+    return pi * pow(r, 2)
