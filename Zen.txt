@@ -215,4 +215,5 @@ The Zen of Python, by Petriv Stanislav(wozeuleaplug)
 203.Vorozhko Vitalii was here
 204 hi from asikachovska
 204. Bohelskyi Bohdan added new line
+205.Namespaces are one honking great idea -- let's do more of those! artemblack010-ux
 
